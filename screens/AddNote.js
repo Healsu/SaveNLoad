@@ -31,7 +31,6 @@ const AddNote = ({onSave}) => {
         <Text style={styles.title}>Add Note</Text>
                 <View>
                     <TextInput onChangeText={handleChange} style={styles.input}></TextInput>
-                    <!--Add picture input-->
                 </View>
                 <Button onPress={handleClick} title="Add"/>
             </View>
